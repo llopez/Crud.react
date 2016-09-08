@@ -1,5 +1,5 @@
 {
-  "name": "ReactJS CRUD",
+  "name": "crud.react",
   "version": "1.0.0",
   "description": "Create, Read, Update and Destroy by ReactJS",
   "main": "app.js",

@@ -23,11 +23,17 @@ $ cd Crud.react
 $ npm install
 ```
 
-Start the application by navigating to your server address in your preferred browser.
+Start the application (development), then navige to your server address in your preferred browser.
 
 ```sh
-$ ./node_modules/webpack-dev-server/bin/webpack-dev-server.js
+$ npm run dev-server
 $ open localhost:8080
+```
+
+Create bundle.js (production)
+
+```sh
+$ npm run bundle
 ```
 
 [DEMO](https://llopez.github.io/Crud.react/)

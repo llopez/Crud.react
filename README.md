@@ -23,7 +23,7 @@ $ cd Crud.react
 $ npm install
 ```
 
-Start the application (development), then navige to your server address in your preferred browser.
+Start the application (development), then navigate to your server address in your preferred browser.
 
 ```sh
 $ npm run dev-server

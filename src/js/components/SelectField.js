@@ -7,7 +7,7 @@ class SelectField extends Field {
     
     return (
       <div>
-        <label className="label" htmlFor={randomId}>{this.props.name}</label>
+        <label className="label" htmlFor={randomId}>{this.props.label}</label>
         <p className="control">
           <span className="select">
           <select name={this.props.name} id={randomId} value={this.props.value} onChange={this._setValue}>

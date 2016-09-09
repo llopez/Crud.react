@@ -7,7 +7,7 @@ class TextField extends Field {
 
     return (
       <div>
-        <label className="label" htmlFor={randomId}>{this.props.name}</label>
+        <label className="label" htmlFor={randomId}>{this.props.label}</label>
         <p className="control">
           <input className="input" type="text" name={this.props.name} id={randomId} value={this.props.value} onChange={this._setValue}/>
         </p>

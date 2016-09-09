@@ -54,9 +54,9 @@ class Form extends React.Component {
             <button className="delete" onClick={this._handleClose}></button>
           </header>
           <section className="modal-card-body">
-            <TextField name="first_name" value={this.state.data.first_name} errors={this.state.errors['first_name']} />
-            <TextField name="last_name" value={this.state.data.last_name}  errors={this.state.errors['last_name']} />
-            <SelectField name="sex" value={this.state.data.sex} errors={this.state.errors['sex']}>
+            <TextField label="First Name" name="first_name" value={this.state.data.first_name} errors={this.state.errors['first_name']} />
+            <TextField label="Last Name" name="last_name" value={this.state.data.last_name}  errors={this.state.errors['last_name']} />
+            <SelectField label="Sex" name="sex" value={this.state.data.sex} errors={this.state.errors['sex']}>
               <option value="">- Select -</option>
               <option value="male">Male</option>
               <option value="female">Female</option>
